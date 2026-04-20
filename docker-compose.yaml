@@ -1,0 +1,63 @@
+# C:\Users\rhueh\Documents\Projects\blubblemap-maker\docker-compose.yml
+
+services:
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: bubblemap-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: bubblemap
+      POSTGRES_USER: bubble
+      POSTGRES_PASSWORD: bubble
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - bubblemap-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bubble -d bubblemap"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: bubblemap-backend
+    restart: unless-stopped
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: bubblemap
+      DB_USERNAME: bubble
+      DB_PASSWORD: bubble
+    ports:
+      - "8080:8080"
+    networks:
+      - bubblemap-net
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: bubblemap-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    networks:
+      - bubblemap-net
+    depends_on:
+      - backend
+
+networks:
+  bubblemap-net:
+    driver: bridge
+
+volumes:
+  postgres_data:
