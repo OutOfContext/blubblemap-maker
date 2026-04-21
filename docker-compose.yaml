@@ -1,5 +1,6 @@
 # C:\Users\rhueh\Documents\Projects\blubblemap-maker\docker-compose.yml
 
+# bildet einen sogenannten Stack, bestehend aus drei Services: postgres, backend und frontend
 services:
 
   postgres:
