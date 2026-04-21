@@ -5,7 +5,7 @@ name: Build & Push Image
 on:
   push:
     branches:
-      - master
+      - main
 
 # Definition der Jobs, die im Workflow ausgeführt werden sollen
 jobs:
