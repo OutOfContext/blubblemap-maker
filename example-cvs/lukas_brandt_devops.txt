@@ -1,0 +1,111 @@
+RESUME
+======
+
+Name:     Lukas Brandt
+Role:     DevOps / Platform Engineer
+Email:    lukas.brandt@example.com
+Location: Hamburg, Germany
+GitHub:   github.com/lukasbrandt
+
+ABOUT ME
+--------
+Platform Engineer with 6 years of experience designing and operating cloud-native infrastructure
+at scale. Passionate about automation, reliability engineering (SRE), and enabling development
+teams to ship faster and safer. Strong background in both on-premise and multi-cloud environments.
+
+EXPERIENCE
+----------
+
+Senior Platform Engineer @ CloudFirst GmbH (2022 – present)
+  - Designed and maintained Kubernetes clusters for 30+ microservices (EKS + GKE)
+  - Implemented GitOps workflows using ArgoCD and Flux
+  - Reduced deployment time from 45 min to 8 min through pipeline optimization
+  - Built self-service infrastructure portal using Backstage
+  - Technologies: Kubernetes, Terraform, Helm, ArgoCD, GitHub Actions, Prometheus, Grafana
+
+DevOps Engineer @ FinTech Dynamics (2020 – 2022)
+  - Migrated monolithic application to microservices on AWS
+  - Implemented blue/green and canary deployment strategies
+  - Set up centralized logging with ELK stack
+  - Technologies: AWS, Docker, Jenkins, Ansible, ELK, Vault
+
+System Administrator @ IT Solutions Nord (2018 – 2020)
+  - Managed Linux servers and VMware virtualization
+  - Automated routine tasks with Bash and Python scripts
+  - Technologies: Linux (RHEL/Ubuntu), VMware, Bash, Python, Nagios
+
+TECHNICAL SKILLS
+----------------
+
+Container & Orchestration:
+  - Kubernetes (expert, 5 years)
+  - Docker (expert, 6 years)
+  - Helm (expert, 4 years)
+  - OpenShift (proficient, 2 years)
+
+Infrastructure as Code:
+  - Terraform (expert, 5 years)
+  - Ansible (expert, 5 years)
+  - Pulumi (intermediate, 2 years)
+  - CloudFormation (proficient, 3 years)
+
+Cloud Platforms:
+  - AWS (expert, 5 years) – EC2, EKS, S3, RDS, Lambda, IAM, VPC, Route53
+  - Google Cloud Platform (proficient, 3 years) – GKE, GCS, Cloud Run
+  - Azure (intermediate, 2 years) – AKS, Azure DevOps
+
+CI/CD:
+  - GitHub Actions (expert, 4 years)
+  - Jenkins (expert, 5 years)
+  - GitLab CI (proficient, 3 years)
+  - ArgoCD, Flux (expert, 3 years)
+
+Monitoring & Observability:
+  - Prometheus (expert, 4 years)
+  - Grafana (expert, 4 years)
+  - Jaeger / Distributed Tracing (proficient)
+  - ELK Stack (Elasticsearch, Logstash, Kibana) – expert, 4 years
+  - Datadog (proficient, 2 years)
+
+Service Mesh & Networking:
+  - Istio (proficient, 2 years)
+  - NGINX, Traefik (expert, 4 years)
+  - Cloudflare (proficient)
+
+Security:
+  - HashiCorp Vault (expert, 3 years)
+  - OPA / Gatekeeper (proficient)
+  - SAST/DAST tooling, SonarQube
+  - Network Policies, RBAC
+
+Databases (operational):
+  - PostgreSQL (proficient, administration)
+  - Redis (proficient)
+  - Kafka (proficient, 3 years)
+
+Programming / Scripting:
+  - Bash (expert, 7 years)
+  - Python (proficient, 5 years)
+  - Go (intermediate, 2 years)
+  - YAML, HCL (expert)
+
+Soft Skills:
+  - On-Call / Incident Management (expert)
+  - Runbook & Documentation Writing (expert)
+  - Cross-team collaboration (very good)
+
+EDUCATION
+---------
+B.Sc. Computer Engineering – HAW Hamburg (2014 – 2018)
+
+LANGUAGES
+---------
+German (native), English (fluent)
+
+CERTIFICATIONS
+--------------
+  - Certified Kubernetes Administrator – CKA (2023)
+  - Certified Kubernetes Security Specialist – CKS (2024)
+  - AWS Solutions Architect – Professional (2022)
+  - HashiCorp Certified Terraform Associate (2021)
+

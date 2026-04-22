@@ -6,15 +6,22 @@ import com.primiq.backend.model.dto.BubbleMapDatasetBulkImportRequest;
 import com.primiq.backend.model.dto.BubbleMapProjectCreationRequest;
 import com.primiq.backend.model.dto.DatasetImportResponse;
 import com.primiq.backend.model.dto.ProjectResponse;
+import com.primiq.backend.model.dto.ProjectSummaryResponse;
+import com.primiq.backend.repository.BubbleMapProjectRepository;
+import com.primiq.backend.repository.SkillMapProjectRepository;
 import com.primiq.backend.service.BubbleMapDatasetImportService;
 import com.primiq.backend.service.BubbleMapProcessingService;
 import com.primiq.backend.service.BubbleMapProjectService;
 import com.primiq.backend.service.CsvDatasetParserService;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -34,6 +41,55 @@ public class ProjectController {
   private final BubbleMapProcessingService bubbleMapProcessingService;
   private final BubbleMapDatasetImportService datasetImportService;
   private final CsvDatasetParserService csvParserService;
+  private final BubbleMapProjectRepository bubbleMapProjectRepository;
+  private final SkillMapProjectRepository skillMapProjectRepository;
+
+  // ── Overview Endpoints ──────────────────────────────────────────────────────
+
+  @GetMapping
+  public ResponseEntity<List<ProjectSummaryResponse>> getAllProjects() {
+    List<ProjectSummaryResponse> all = new ArrayList<>();
+
+    bubbleMapProjectRepository.findAll().stream()
+        .map(p -> ProjectSummaryResponse.builder()
+            .id(p.getId()).type(p.getType())
+            .title(p.getMetadata().getTitle())
+            .description(p.getMetadata().getDescription())
+            .author(p.getMetadata().getAuthor())
+            .createdAt(p.getCreatedAt())
+            .build())
+        .forEach(all::add);
+
+    skillMapProjectRepository.findAll().stream()
+        .map(p -> ProjectSummaryResponse.builder()
+            .id(p.getId()).type(p.getType())
+            .title(p.getMetadata().getTitle())
+            .description(p.getMetadata().getDescription())
+            .author(p.getMetadata().getAuthor())
+            .createdAt(p.getCreatedAt())
+            .build())
+        .forEach(all::add);
+
+    all.sort(Comparator.comparing(
+        ProjectSummaryResponse::getCreatedAt,
+        Comparator.nullsLast(Comparator.reverseOrder())));
+
+    return ResponseEntity.ok(all);
+  }
+
+  @DeleteMapping("/{projectId}")
+  public ResponseEntity<Void> deleteProject(@PathVariable UUID projectId) {
+    log.info("Deleting project: {}", projectId);
+    if (bubbleMapProjectRepository.existsById(projectId)) {
+      bubbleMapProjectRepository.deleteById(projectId);
+      return ResponseEntity.noContent().build();
+    }
+    if (skillMapProjectRepository.existsById(projectId)) {
+      skillMapProjectRepository.deleteById(projectId);
+      return ResponseEntity.noContent().build();
+    }
+    return ResponseEntity.notFound().build();
+  }
 
   @PostMapping("/create/bubblemap")
   public ResponseEntity<ProjectResponse> createProject(@RequestBody BubbleMapProjectCreationRequest request) {

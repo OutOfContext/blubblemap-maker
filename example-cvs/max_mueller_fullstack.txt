@@ -1,0 +1,89 @@
+CURRICULUM VITAE
+================
+
+Name:     Max Müller
+Position: Senior Full-Stack Developer
+Email:    max.mueller@example.com
+LinkedIn: linkedin.com/in/maxmueller
+Location: Berlin, Germany
+
+SUMMARY
+-------
+Passionate Full-Stack Developer with 7 years of experience building scalable web applications.
+Deep expertise in Java/Spring Boot backends and React frontends. Strong advocate for clean
+architecture, test-driven development and DevOps practices.
+
+WORK EXPERIENCE
+---------------
+
+Senior Full-Stack Developer @ TechVentures GmbH (2021 – present)
+  - Led development of a microservices platform serving 500k+ users
+  - Architected event-driven systems using Apache Kafka
+  - Mentored a team of 5 junior developers
+  - Technologies: Java 21, Spring Boot, React, TypeScript, PostgreSQL, Redis, Docker, Kubernetes
+
+Full-Stack Developer @ Startup Hub Berlin (2019 – 2021)
+  - Built RESTful APIs and React SPAs from scratch
+  - Introduced CI/CD pipelines using GitHub Actions
+  - Technologies: Node.js, Express, Vue.js, MongoDB, AWS
+
+Junior Developer @ Webagency Pixel (2017 – 2019)
+  - Developed WordPress themes and custom PHP applications
+  - Technologies: PHP, JavaScript, MySQL, HTML/CSS
+
+TECHNICAL SKILLS
+----------------
+
+Backend:
+  - Java (expert, 7 years)
+  - Spring Boot (expert, 6 years)
+  - Spring Security, Spring Data JPA
+  - Node.js (proficient, 4 years)
+  - Python (intermediate, 3 years)
+  - REST APIs, GraphQL
+
+Frontend:
+  - React (expert, 5 years)
+  - TypeScript (expert, 5 years)
+  - Vue.js (proficient, 3 years)
+  - HTML5, CSS3, SASS
+  - D3.js (intermediate)
+
+Databases:
+  - PostgreSQL (expert, 6 years)
+  - MySQL (proficient, 5 years)
+  - MongoDB (proficient, 4 years)
+  - Redis (intermediate, 3 years)
+  - Elasticsearch (familiar)
+
+DevOps & Cloud:
+  - Docker (expert, 5 years)
+  - Kubernetes (proficient, 3 years)
+  - AWS (EC2, S3, RDS, Lambda) – proficient, 4 years
+  - GitHub Actions, Jenkins (proficient)
+  - Terraform (familiar)
+
+Testing:
+  - JUnit 5, Mockito (expert)
+  - Jest, Cypress (proficient)
+  - TDD, BDD
+
+Soft Skills:
+  - Technical Leadership (experienced)
+  - Code Reviews (expert)
+  - Agile / Scrum (experienced)
+  - Team Mentoring (experienced)
+
+EDUCATION
+---------
+B.Sc. Computer Science – TU Berlin (2013 – 2017)
+
+LANGUAGES
+---------
+German (native), English (fluent), Spanish (basic)
+
+CERTIFICATIONS
+--------------
+  - AWS Certified Developer – Associate (2022)
+  - Oracle Certified Professional Java SE 17 (2023)
+

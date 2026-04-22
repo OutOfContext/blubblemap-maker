@@ -1,0 +1,103 @@
+LEBENSLAUF
+==========
+
+Name:       Sofia Hartmann
+Position:   Machine Learning Engineer / Data Scientist
+E-Mail:     sofia.hartmann@example.com
+GitHub:     github.com/sofiah
+Location:   München, Deutschland
+
+PROFIL
+------
+ML Engineer mit 5 Jahren Erfahrung in der Entwicklung und Produktivsetzung von Machine-Learning-
+Modellen. Spezialisierung auf NLP, Computer Vision und MLOps. Starke mathematische Grundlagen
+kombiniert mit praktischer Software-Engineering-Erfahrung.
+
+BERUFSERFAHRUNG
+---------------
+
+ML Engineer @ DataInsights AG (2022 – heute)
+  - Entwicklung von NLP-Pipelines für Sentiment-Analyse und Named Entity Recognition
+  - Training und Deployment von LLM-basierten Produkten (Fine-Tuning von GPT-Modellen)
+  - Aufbau einer MLOps-Plattform mit MLflow und Kubeflow
+  - Technologien: Python, PyTorch, Hugging Face Transformers, FastAPI, PostgreSQL, Kubernetes
+
+Data Scientist @ Analytics GmbH (2020 – 2022)
+  - Entwicklung von Empfehlungssystemen (Collaborative Filtering, Content-Based)
+  - A/B-Testing und statistische Auswertungen
+  - Technologien: Python, scikit-learn, Pandas, NumPy, Spark, Tableau
+
+Data Science Intern @ BMW Group (2019 – 2020)
+  - Computer Vision Modelle zur Qualitätskontrolle in der Produktion
+  - Technologien: Python, TensorFlow, OpenCV
+
+TECHNISCHE FÄHIGKEITEN
+-----------------------
+
+Programmiersprachen:
+  - Python (Experte, 6 Jahre)
+  - R (fortgeschritten, 3 Jahre)
+  - SQL (fortgeschritten, 5 Jahre)
+  - Scala (Grundkenntnisse, 1 Jahr)
+  - Java (Grundkenntnisse)
+
+Machine Learning & AI:
+  - PyTorch (Experte, 4 Jahre)
+  - TensorFlow / Keras (fortgeschritten, 3 Jahre)
+  - scikit-learn (Experte, 5 Jahre)
+  - Hugging Face Transformers (Experte, 3 Jahre)
+  - LangChain (fortgeschritten, 2 Jahre)
+  - OpenAI API (fortgeschritten, 2 Jahre)
+  - Computer Vision: OpenCV, YOLO, ResNet
+  - NLP: BERT, GPT-Modelle, spaCy, NLTK
+
+Data Engineering:
+  - Apache Spark (fortgeschritten, 3 Jahre)
+  - Apache Kafka (Grundkenntnisse)
+  - dbt (fortgeschritten, 2 Jahre)
+  - Airflow (fortgeschritten, 2 Jahre)
+
+Datenbanken:
+  - PostgreSQL (fortgeschritten, 4 Jahre)
+  - MongoDB (Grundkenntnisse)
+  - Elasticsearch (Grundkenntnisse)
+  - BigQuery (fortgeschritten, 3 Jahre)
+  - Snowflake (fortgeschritten, 2 Jahre)
+
+MLOps & Cloud:
+  - MLflow (Experte, 3 Jahre)
+  - Kubeflow (fortgeschritten, 2 Jahre)
+  - Docker, Kubernetes (fortgeschritten)
+  - AWS SageMaker (fortgeschritten, 2 Jahre)
+  - Google Cloud Platform (fortgeschritten, 3 Jahre)
+  - FastAPI (Experte, 3 Jahre)
+
+Visualisierung:
+  - Matplotlib, Seaborn (Experte)
+  - Plotly, Dash (fortgeschritten)
+  - Tableau (fortgeschritten)
+
+Soft Skills:
+  - Wissenschaftliches Schreiben (sehr gut)
+  - Präsentation komplexer Themen (sehr gut)
+  - Eigenverantwortliches Arbeiten (sehr gut)
+
+AUSBILDUNG
+----------
+M.Sc. Data Science – LMU München (2017 – 2019)
+B.Sc. Mathematik – Universität Heidelberg (2014 – 2017)
+
+SPRACHEN
+--------
+Deutsch (Muttersprache), Englisch (verhandlungssicher), Französisch (Grundkenntnisse)
+
+ZERTIFIKATE
+-----------
+  - Google Professional Data Engineer (2023)
+  - AWS Certified Machine Learning – Specialty (2022)
+  - Deep Learning Specialization – Coursera/deeplearning.ai (2021)
+
+PUBLIKATIONEN
+-------------
+  - "Efficient Fine-Tuning of LLMs for Domain-Specific NLP Tasks" – NeurIPS Workshop 2023
+
