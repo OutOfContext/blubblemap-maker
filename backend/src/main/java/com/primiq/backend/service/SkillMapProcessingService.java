@@ -42,6 +42,10 @@ public class SkillMapProcessingService {
     SkillMapPerson person = personRepository.findById(personId)
         .orElseThrow(() -> new IllegalArgumentException("Person not found: " + personId));
 
+    if (person.getProject() == null || !project.getId().equals(person.getProject().getId())) {
+      throw new IllegalArgumentException(
+          "Person " + personId + " does not belong to project " + projectId);
+    }
     List<String> categories = person.getSkills().stream()
         .map(SkillMapDataset::getCategory)
         .distinct()
