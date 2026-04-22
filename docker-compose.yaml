@@ -35,6 +35,7 @@ services:
       DB_NAME: bubblemap
       DB_USERNAME: bubble
       DB_PASSWORD: bubble
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-your-api-key-here}
     ports:
       - "8080:8080"
     networks:

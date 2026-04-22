@@ -1,0 +1,109 @@
+RESUME
+======
+
+Name:     Jonas Weber
+Role:     Backend Developer / Java Architect
+Email:    jonas.weber@example.com
+Location: Frankfurt, Germany
+
+SUMMARY
+-------
+Java Backend Developer with 9 years of experience. Expert in designing and implementing
+high-performance, distributed systems. Deep knowledge of the Java ecosystem, database
+technologies (both SQL and NoSQL) and enterprise integration patterns.
+
+EXPERIENCE
+----------
+
+Lead Backend Developer @ FinServ Solutions AG (2021 – present)
+  - Designed event-driven microservices architecture processing 2M transactions/day
+  - Led migration from Oracle monolith to PostgreSQL + MongoDB hybrid architecture
+  - Implemented CQRS and Event Sourcing patterns with Apache Kafka
+  - Technologies: Java 21, Spring Boot 3, Spring Cloud, PostgreSQL, MongoDB, Kafka, Redis
+
+Senior Backend Developer @ Enterprise Software GmbH (2018 – 2021)
+  - Developed RESTful and gRPC APIs for B2B SaaS platform
+  - Performance tuning: reduced avg. API response time from 850ms to 95ms
+  - Technologies: Java 11, Spring Boot, Oracle DB, Elasticsearch, RabbitMQ, Docker
+
+Backend Developer @ Mittelstand IT (2015 – 2018)
+  - Built ERP integrations and batch processing pipelines
+  - Technologies: Java 8, Spring Framework, MySQL, IBM MQ, JBoss
+
+TECHNICAL SKILLS
+----------------
+
+Programming Languages:
+  - Java (expert, 9 years)
+  - Kotlin (proficient, 3 years)
+  - Python (intermediate, 3 years)
+  - SQL (expert, 9 years)
+  - Bash (proficient)
+
+Frameworks:
+  - Spring Boot (expert, 7 years)
+  - Spring Cloud (expert, 5 years) – Config, Gateway, Eureka, Feign
+  - Spring Security + OAuth2 / JWT (expert)
+  - Spring Batch (proficient, 4 years)
+  - Quarkus (intermediate, 1 year)
+  - Micronaut (familiar)
+  - gRPC, Protocol Buffers (proficient, 3 years)
+
+SQL Databases:
+  - PostgreSQL (expert, 7 years)
+  - MySQL (expert, 8 years)
+  - Oracle Database (proficient, 5 years)
+  - Microsoft SQL Server (intermediate, 3 years)
+
+NoSQL Databases:
+  - MongoDB (expert, 5 years)
+  - Redis (expert, 5 years) – Caching, Pub/Sub, Streams
+  - Elasticsearch (proficient, 4 years)
+  - Cassandra (intermediate, 2 years)
+  - Neo4j (familiar, graph use cases)
+
+Message Brokers:
+  - Apache Kafka (expert, 4 years)
+  - RabbitMQ (proficient, 5 years)
+  - IBM MQ (proficient)
+
+Architecture & Patterns:
+  - Microservices (expert)
+  - Domain-Driven Design (expert)
+  - CQRS / Event Sourcing (proficient)
+  - Hexagonal Architecture (expert)
+  - API Design: REST, GraphQL, gRPC
+
+Testing:
+  - JUnit 5, Mockito (expert)
+  - Testcontainers (expert, 3 years)
+  - WireMock (proficient)
+  - Performance Testing: Gatling (proficient)
+
+DevOps:
+  - Docker (expert, 5 years)
+  - Kubernetes (proficient, 3 years)
+  - AWS (proficient) – EC2, RDS, ElastiCache, MSK
+  - Maven, Gradle (expert)
+  - SonarQube, Jacoco (expert)
+
+Soft Skills:
+  - Technical Architecture Decision Making (expert)
+  - Code Review & Quality Gates (expert)
+  - Technical Documentation (expert)
+  - Team Leadership (proficient)
+
+EDUCATION
+---------
+Dipl.-Informatik – Goethe Universität Frankfurt (2006 – 2012)
+
+LANGUAGES
+---------
+German (native), English (business fluent)
+
+CERTIFICATIONS
+--------------
+  - Oracle Certified Master Java EE Enterprise Architect (2019)
+  - AWS Certified Solutions Architect – Associate (2021)
+  - Confluent Certified Developer for Apache Kafka (2022)
+

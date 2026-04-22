@@ -1,0 +1,116 @@
+CURRICULUM VITAE
+================
+
+Name:      Aisha Kowalski
+Position:  Frontend Developer & UX Engineer
+E-Mail:    aisha.kowalski@example.com
+Portfolio: aisha-dev.design
+Location:  Köln, Deutschland
+
+ÜBER MICH
+---------
+Leidenschaftliche Frontend-Entwicklerin mit 4 Jahren Berufserfahrung und starkem Fokus auf
+User Experience, Performance und Barrierefreiheit. Ich überbrücke die Lücke zwischen Design
+und Entwicklung und verwandle Figma-Mockups in präzise, animierte und zugängliche Web-Apps.
+
+BERUFSERFAHRUNG
+---------------
+
+Frontend Developer @ DesignTech Studio (2023 – heute)
+  - Entwicklung einer Design-System-Library mit 80+ Komponenten (React + Storybook)
+  - Performance-Optimierungen: Core Web Vitals LCP von 4.2s auf 1.1s reduziert
+  - Implementierung von komplexen Animationen mit Framer Motion und GSAP
+  - Accessibility-Audit und WCAG 2.1 AA Konformität hergestellt
+  - Technologien: React, TypeScript, Next.js, Tailwind CSS, Storybook, Framer Motion
+
+Frontend Developer @ E-Commerce Ventures (2021 – 2023)
+  - Entwicklung eines Next.js Webshops mit über 100k monatlichen Besuchern
+  - Implementierung von A/B-Tests und Conversion-Rate-Optimierung
+  - Integration von Headless-CMS (Contentful, Sanity)
+  - Technologien: Next.js, React, TypeScript, GraphQL, Styled Components, Vercel
+
+Junior Frontend Developer @ Webwerk GmbH (2020 – 2021)
+  - Erstellung responsiver Landingpages und Marketingseiten
+  - Technologien: HTML5, CSS3, JavaScript, SASS, WordPress
+
+TECHNISCHE FÄHIGKEITEN
+-----------------------
+
+JavaScript / TypeScript:
+  - TypeScript (Experte, 4 Jahre)
+  - JavaScript ES2023+ (Experte, 5 Jahre)
+  - Node.js (Grundkenntnisse für Tooling)
+
+Frameworks & Libraries:
+  - React (Experte, 4 Jahre)
+  - Next.js (Experte, 3 Jahre)
+  - Vue.js (fortgeschritten, 2 Jahre)
+  - Svelte (Grundkenntnisse, 1 Jahr)
+  - Astro (fortgeschritten, 1 Jahr)
+
+Styling:
+  - Tailwind CSS (Experte, 3 Jahre)
+  - CSS Modules (Experte, 4 Jahre)
+  - Styled Components (fortgeschritten, 3 Jahre)
+  - SASS / SCSS (Experte, 5 Jahre)
+  - CSS Animations, Custom Properties
+
+Animation:
+  - Framer Motion (Experte, 2 Jahre)
+  - GSAP (fortgeschritten, 2 Jahre)
+  - CSS Transitions / Keyframes (Experte)
+  - Lottie (fortgeschritten)
+
+State Management:
+  - Zustand (fortgeschritten, 2 Jahre)
+  - Redux Toolkit (fortgeschritten, 3 Jahre)
+  - React Query / TanStack Query (Experte, 2 Jahre)
+  - Jotai (Grundkenntnisse)
+
+Testing:
+  - Vitest / Jest (fortgeschritten, 3 Jahre)
+  - React Testing Library (fortgeschritten)
+  - Cypress, Playwright (fortgeschritten, 2 Jahre)
+  - Storybook (Experte, 2 Jahre)
+
+Performance & SEO:
+  - Core Web Vitals Optimierung (Experte)
+  - Lighthouse (Experte)
+  - Code Splitting, Lazy Loading (Experte)
+  - SEO Best Practices (fortgeschritten)
+
+Tooling:
+  - Vite (Experte, 3 Jahre)
+  - Webpack (fortgeschritten, 3 Jahre)
+  - ESLint, Prettier (Experte)
+  - Figma (fortgeschritten – Design handoff)
+
+APIs & Daten:
+  - REST APIs (Experte)
+  - GraphQL / Apollo Client (fortgeschritten, 2 Jahre)
+  - WebSockets (Grundkenntnisse)
+
+Accessibility:
+  - WCAG 2.1 AA (fortgeschritten)
+  - Screen Reader Testing (fortgeschritten)
+  - ARIA (fortgeschritten)
+
+Soft Skills:
+  - Design-Sensibilität / UX-Thinking (sehr gut)
+  - Enge Zusammenarbeit mit Designern (sehr gut)
+  - Pixel-perfekte Umsetzung (Experte)
+  - Mentoring (fortgeschritten)
+
+AUSBILDUNG
+----------
+B.A. Medieninformatik – TH Köln (2016 – 2020)
+
+SPRACHEN
+--------
+Deutsch (Muttersprache), Englisch (verhandlungssicher), Polnisch (Muttersprache)
+
+ZERTIFIKATE
+-----------
+  - Google UX Design Certificate (2022)
+  - Meta Frontend Developer Professional Certificate (2023)
+

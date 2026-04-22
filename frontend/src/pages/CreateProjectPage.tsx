@@ -118,7 +118,7 @@ export default function CreateProjectPage() {
             {error && <div className="error-box">⚠ {error}</div>}
 
             <div className="form-actions">
-              <button type="button" className="btn-secondary" onClick={() => navigate('/')}>
+              <button type="button" className="btn-secondary" onClick={() => navigate('/projects')}>
                 ← Zurück
               </button>
               <button type="submit" className="btn-primary" disabled={loading}>
